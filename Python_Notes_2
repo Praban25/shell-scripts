@@ -1,0 +1,41 @@
+Day-02
+
+python --version   -- check python version 
+python3 -m venv day2    -- to create virtual env for specific project
+source day2/bin/activate   -- to activate virtual env (day2)
+deactivate  -- to deactivate the virtual env
+
+* Data Structure *
+list [ can use different data types ]   -- list
+dict
+set
+tuple
+
+list -->
+a = [...,...,...,...,...]   -- can create list
+a.append(....)  -- append the value of variable in list
+cloud = list()
+a.remove(..)       -- remove specific item from list
+len(cloud)  -- length of list
+cloud[2]    -- select that position list value, here is 2
+print(dir(cloud)) -- just like man in linux
+print(cloud.append.__doc__) -- explain what append can do..
+
+Dict -->
+we can defind key - value pair in dictionary inside {}
+exp :
+info ={
+    ...... ,
+}
+
+
+set -->
+info = {1,55,"yadav"}   -- example of set
+days = set()    -- empty set
+set -- Duplicate value gets ignored in output
+
+
+
+
+
+

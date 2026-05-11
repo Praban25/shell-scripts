@@ -1,0 +1,35 @@
+variables are vary + able
+Example env = "dev"
+= is called assignment operator
+
+a = 100  # its constant
+
+# + - * / = (are called OPERATORS)
+a + B  (Here a & b are OPERANDS)
+(a + b)  - OPERATION
+
+#Data Types
+#int 1 2 5 8 100 5741 3695
+#float 1.2 65.6 874.23
+#bool   True / False
+str  "value inside quotes is string"
+
+#python3      - to get interacctive shell (python version depends)
+#exit()       - to exit interacctive shell
+
+==  - Equality operator
+!=  - Not equal to
+
+range (start, end, increment / decrement) by default increment
+print(f" {num} x {i} = {num*i}")    - f for Formatting the things.. co-relate the example Here
+
+for i in range():    -for loop
+
+while value == "True":      - for loop
+    print("this is True")   - Infinate loop
+    break
+
+Function : Where we can define certain tasks and then using if condition, can use it
+check functions_test.py for more details
+
+Py Pi = Library for python (python package index)

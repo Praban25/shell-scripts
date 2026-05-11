@@ -1,0 +1,21 @@
+GITLAB 
+
+git init  ----> to initialise git
+git add <file_name>  ----> to add the file / changes (staged)
+git rm <file_name>  ----> to remove the file
+git add .  ----> to add all the changes in the repo
+git commit -m <"Commit_message">  ----> to commit the changes (tracked changes)
+git push origin <main>  ----> to push the committed changes to main branch
+git clone <git_https_url>  ----> to clone the repository
+git log  ----> to check the logs
+git checkout <dev>  ----> to switch the branch to Dev ( can use switch instead of checkout)
+git checkout -b <branch_name>  ----> to create new branch 
+git branch  ----> to check the which branch we are in
+git branch -a  ----> to check the all branches in the repo
+git remote -v  ----> to check which repository it points to
+git remote set-url origin <ssh_url>  ----> to change the origin url from https to ssh
+
+To auth Github from local - create ssh keys.
+ssh-keygen  ----> to create keygen to auth repo on github
+copy contain of public key and go to profile icon - settings - ssh & gpg keys - ssh keys - add public key there.
+
