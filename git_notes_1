@@ -15,7 +15,15 @@ git branch -a  ----> to check the all branches in the repo
 git remote -v  ----> to check which repository it points to
 git remote set-url origin <ssh_url>  ----> to change the origin url from https to ssh
 
+git remote set-url origin https://<access_token><https_url>  ----> to auth through access token for https
+
 To auth Github from local - create ssh keys.
 ssh-keygen  ----> to create keygen to auth repo on github
 copy contain of public key and go to profile icon - settings - ssh & gpg keys - ssh keys - add public key there.
+
+Personal access token - https
+create personal access token from settings - developer setting - personal access token - token(classic) - generate new token
+
+git remote add origin https://<personal access token>@git_https_repo_url
+
 
