@@ -27,3 +27,5 @@ create personal access token from settings - developer setting - personal access
 git remote add origin https://<personal access token>@git_https_repo_url
 
 
+Testing git feature as we do while adding any changes in Redpin
+
